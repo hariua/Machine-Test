@@ -1,0 +1,22 @@
+.containerBox {
+    background-color: white;
+    margin-top: 1%;
+    margin-bottom: 10%;
+  }
+  .allScreenHead {
+    padding-top: 4%;
+  }
+  .freeTimeHead {
+    padding-top: 4%;
+    padding-bottom: 35%;
+  }
+  .chartText {
+    padding-bottom: 10%;
+  }
+  @media only screen and (max-width:599px)
+  {
+      .freeTimeHead{
+          padding-bottom: 5%;
+          padding-top:2%;
+      }
+  }

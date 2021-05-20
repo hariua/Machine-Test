@@ -1,0 +1,21 @@
+body{
+    background-color:rgb(225, 229 , 181,87);
+}
+.appBar{
+    background: rgb(172,172,175);
+    background: linear-gradient(90deg, rgba(172,172,175,0.7721463585434174) 0%, rgba(255,229,181,0.9066001400560224) 48%);
+}
+.personIcon{
+    color: #0d0a42;
+    float:left;
+    margin-right: 2%;
+
+}
+.threeDots{
+    color: #0d0a42;
+}
+.personName
+{
+    color: #0d0a42;
+
+}
