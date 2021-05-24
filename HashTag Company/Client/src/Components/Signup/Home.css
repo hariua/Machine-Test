@@ -1,0 +1,65 @@
+.imgHeader{
+    width: 14em;
+    height: auto;
+    margin: 1em 0em;
+}
+.imgFooter{
+    width: 9em;
+    height: auto;
+    margin: 1em 0em;
+}
+.signupHead{
+    padding: 1em;
+    color: white;
+    font-family:'Poppins';
+}
+.input{
+    background: rgb(172, 172, 175);
+        background: linear-gradient(
+          90deg,
+          rgba(172, 172, 175, 0.7721463585434174) 0%,
+          rgba(33, 32, 29, 1) 0%
+        );
+        border: 2px solid green;
+        border-radius: 2em;
+        margin-top: 1em;
+        padding: 0em 6em;
+        outline: none;
+}
+.search-text{
+    padding-right: 2em;
+}
+.insideBox{
+    background: rgb(172,172,175);
+background: linear-gradient(90deg, rgba(172,172,175,0.7721463585434174) 0%, rgba(82,80,74,1) 0%);
+margin-top: 3em;
+border-radius: 6px;
+}
+#fan,#talent{
+
+    border-radius: 2em;
+}
+.ba{
+    margin: 2em;
+}
+.items{
+    background-color:rgb(24, 24, 24);
+       
+        border-radius: 2em;
+}
+@media only screen and (max-width:453px)
+{
+    .input{
+        background: rgb(172, 172, 175);
+            background: linear-gradient(
+              90deg,
+              rgba(172, 172, 175, 0.7721463585434174) 0%,
+              rgba(33, 32, 29, 1) 0%
+            );
+            border: 2px solid green;
+            border-radius: 2em;
+            margin-top: 1em;
+            padding: 0em 2em;
+            outline: none;
+    }
+}

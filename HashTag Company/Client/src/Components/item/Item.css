@@ -1,0 +1,17 @@
+.inputs{
+    background: rgb(172,172,175);
+background: linear-gradient(90deg, rgba(172,172,175,0.7721463585434174) 0%, rgba(82,80,74,1) 0%);
+        border: 2px solid green;
+        border-radius: 2em;
+        margin-top: 0em;
+        padding: 0% 5%;
+        outline: none;
+}
+.label{
+    color: white;
+    margin-top: 1em;
+}
+.signup{
+    border-radius: 2em;
+    padding: .5em 3em;
+}
