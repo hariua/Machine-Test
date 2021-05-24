@@ -28,12 +28,12 @@ export default function Home() {
                     <img src="./Fanconvo.png" alt="hari" className="imgHeader"></img>
                     <Grid item>
                         <Grid container direction="row">
-                            <Typography className="signupHead" variant="body1" style={{cursor:"pointer"}}>Sign up</Typography>
-                            <Typography className="signupHead" variant="body1" style={{cursor:"pointer"}}>Login</Typography>
+                            <Typography className="signupHead" variant="body1" style={{cursor:"pointer",fontFamily:"Poppins"}}>Sign up</Typography>
+                            <Typography className="signupHead" variant="body1" style={{cursor:"pointer",fontFamily:"Poppins"}}>Login</Typography>
                         </Grid>
                     </Grid>
                 </Grid>
-                <Typography className="text-white font-weight-light" variant="h6">A marketplace for conversations,mentorships and perfomances.</Typography>
+                <Typography className="text-white font-weight-light" variant="h6" >A marketplace for conversations,mentorships and perfomances.</Typography>
                 <Grid container justify="flex-start" direction="row" alignItems="flex-end">
                     <Grid item>
                         <Typography variant="h5" className="text-white search-text">Search New Talent</Typography>
