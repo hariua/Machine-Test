@@ -43,7 +43,13 @@ export default function Home() {
                 axios.post(Server + '/userAuth', data).then((response) => {
                     if (response.data.verified === true) {
                         setNoteBool(true)
-                        document.getElementById('noteText').innerHTML = notes[index].Note
+                        if(notes[index].note)
+                        {
+                            document.getElementById('noteText').innerHTML = notes[index].note
+                        }else{
+                            document.getElementById('noteText').innerHTML = notes[index].Note
+                        }
+                        
                     } else {
                         alert("You have entered an Invalid Password")
                     }
@@ -69,7 +75,7 @@ export default function Home() {
                 }
                 axios.post(Server + '/editNote', data).then((response) => {
                     if (response.data.verified === true) {
-                        setEditNote(response.data.note.Note)
+                        setEditNote(response.data.note.note)
                         setEditBool(true)
                         setEditNoteId(id)
                     } else {
