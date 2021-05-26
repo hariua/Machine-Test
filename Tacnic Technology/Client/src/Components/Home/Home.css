@@ -1,0 +1,11 @@
+.insideBox {
+  background: rgb(172, 172, 175);
+  background: linear-gradient(
+    90deg,
+    rgba(172, 172, 175, 0.7721463585434174) 0%,
+    rgba(112, 109, 99, 1) 0%
+  );
+  border-radius: 0.5em;
+  margin-top: 2em;
+  height: 300px;
+}
